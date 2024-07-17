@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: 0.02fr 0.4fr 0.05fr 0.05fr;
+       grid-template-areas: 
+       "header header "
+       "main   main "
+       " aside  aside "
+       "footer footer " 
+}
+     .contenido{
+        grid-area: main;
+        max-width: 700px; 
+     }
+     .card{
+        width: 700px;
+        margin: 30px;
+        display: flex;
+     }
+     .calzado{
+        width: 700px;
+        margin: 20px;
+        display: flex;
+}
+}
+@media (max-width: 320px){
+    .grid-container{
+        grid-template-columns: 0.01fr;
+        grid-template-areas: 
+       "header"
+       "main"
+       "aside"
+       "footer" 
+}
+.contenido{
+    grid-area: main;
+    max-width: 260px; 
+ }
+ .card{
+    width: 260px;
+    margin: 10px;
+    display: flex;
+ }
+ .calzado{
+    width: 270px;
+    margin: 10px;
+    display: flex; 
+}
+.encabezado-bg-index{
+    width: 300px;
+}  
+.encabezado-bg-producto{
+    width: 300px;
+}
+.encabezado-bg-contacto{
+    width: 300px;
+}
+.video{
+    width: 260px;
+}
+.enlaces ul{
+    display: flex;
+    margin-top: 190px;
+}
+.enlaces ul li{
+    list-style: none;
+    margin: 10px;
+}
+}

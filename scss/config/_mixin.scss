@@ -1,0 +1,28 @@
+//parametros
+@mixin posiciones-imagen ($pos, $height){
+    background-position: $pos;
+    height: $height;
+}
+@mixin boxmodel($p, $m){
+    padding: $p;
+    margin: $m;
+}
+
+
+
+
+.encabezado-bg-index{
+    background-image: $bg-img-index;
+    grid-area: header;
+   @include posiciones-imagen(center, 310px)
+}
+.encabezado-bg-contacto{
+    background-image: $bg-img-contacto; 
+    grid-area: header;
+    @include posiciones-imagen(center, 320px)
+}
+.encabezado-bg-producto{
+    background-image: $bg-img-producto; 
+    grid-area: header;
+    @include posiciones-imagen(center, 320px)
+}

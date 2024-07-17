@@ -1,0 +1,17 @@
+//reset 
+@import './config/varss';
+@import './config/mixin';
+@import './config/reset';
+@import './config/grid';
+@import './config/bs.scss';
+
+//layout
+@import './config/barra-menu';
+@import './config/galeria';
+@import './config/piepagina';
+@import './config/notas';
+@import './config/contacto';
+
+//media queries
+@import './config/mq';
+

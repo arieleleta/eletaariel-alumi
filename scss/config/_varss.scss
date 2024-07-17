@@ -1,0 +1,31 @@
+//colores
+$white: #f0e7e7f1;
+//tipografia
+$roboto:"Roboto", sans-serif;
+$nunito:"nunito";
+$monserrat:"monserrat";
+
+//tamaños
+//estructura de tipografias
+//background
+$bg-img-index:url('../assets/header-banner-index.jpg');
+$bg-img-producto: url('../assets/header-banner-prodctos.jpg');
+$bg-img-contacto:url('../assets/header-banner-contacto.avif');
+
+//mapas
+$size-tipo:(
+//llave : valor
+  xl:    40em,
+  md:    20em,
+  s:     18em,
+  xs:    10em,
+//medida valor
+);
+
+@each $medida, $valor in $size-tipo{
+    .size-#{$medida}{
+        font-size: $valor;
+        font-family: $roboto;
+    }
+
+}

@@ -1,0 +1,11 @@
+.grid-container-producto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0fr 1fr 0.8fr 0.1fr;
+    grid-template-areas: 
+    "header header header"
+    "main   main   main"
+    "aside  aside  aside"
+    "footer footer footer"
+    ;
+}
