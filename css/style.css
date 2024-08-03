@@ -244,6 +244,10 @@ footer ul li a {
         margin: 20px;
         display: flex;
 }
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
 }
 @media (max-width: 320px){
     .grid-container{
@@ -287,5 +291,9 @@ footer ul li a {
 .enlaces ul li{
     list-style: none;
     margin: 10px;
+}
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
 }
 }
